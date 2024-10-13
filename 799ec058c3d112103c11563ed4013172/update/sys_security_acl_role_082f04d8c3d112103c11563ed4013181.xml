@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-12 23:41:53</sys_created_on>
+        <sys_id>082f04d8c3d112103c11563ed4013181</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_snc_cube_position.x_snc_cube.user</sys_name>
+        <sys_package display_value="Rubik’s 2×2 Cube Solver" source="x_snc_cube">799ec058c3d112103c11563ed4013172</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rubik’s 2×2 Cube Solver">799ec058c3d112103c11563ed4013172</sys_scope>
+        <sys_security_acl display_value="x_snc_cube_position">002f04d8c3d112103c11563ed401317e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_082f04d8c3d112103c11563ed4013181</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-12 23:43:27</sys_updated_on>
+        <sys_user_role display_value="x_snc_cube.user" name="x_snc_cube.user">45ae4498c3d112103c11563ed40131c2</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

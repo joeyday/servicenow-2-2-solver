@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_cube.CubeUtility</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CubeUtility</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CubeUtility = (function () {
+	return {
+
+	}
+
+	function applyMove(descriptor, move) {
+		var descriptorArray = descriptor.split('')
+		
+		if (move === "F") {
+			descriptorArray[2] = descriptor.charAt(12);
+			descriptorArray[3] = descriptor.charAt(14);
+			descriptorArray[5] = descriptor.charAt(3);
+			descriptorArray[7] = descriptor.charAt(2);
+			descriptorArray[8] = descriptor.charAt(9);
+			descriptorArray[9] = descriptor.charAt(11);
+			descriptorArray[10] = descriptor.charAt(8);
+			descriptorArray[11] = descriptor.charAt(10);
+			descriptorArray[12] = descriptor.charAt(21);
+			descriptorArray[14] = descriptor.charAt(20);
+			descriptorArray[20] = descriptor.charAt(5);
+			descriptorArray[21] = descriptor.charAt(7);
+		} else if (move === "F'") {
+			descriptorArray[2] = descriptor.charAt(7);
+			descriptorArray[3] = descriptor.charAt(5);
+			descriptorArray[5] = descriptor.charAt(20);
+			descriptorArray[7] = descriptor.charAt(21);
+			descriptorArray[8] = descriptor.charAt(10);
+			descriptorArray[9] = descriptor.charAt(8);
+			descriptorArray[10] = descriptor.charAt(11);
+			descriptorArray[11] = descriptor.charAt(9);
+			descriptorArray[12] = descriptor.charAt(2);
+			descriptorArray[14] = descriptor.charAt(3);
+			descriptorArray[20] = descriptor.charAt(14);
+			descriptorArray[21] = descriptor.charAt(12);
+		} else if (move === "F2") {
+			descriptorArray[2] = descriptor.charAt(21);
+			descriptorArray[3] = descriptor.charAt(20);
+			descriptorArray[5] = descriptor.charAt(14);
+			descriptorArray[7] = descriptor.charAt(12);
+			descriptorArray[8] = descriptor.charAt(11);
+			descriptorArray[9] = descriptor.charAt(10);
+			descriptorArray[10] = descriptor.charAt(9);
+			descriptorArray[11] = descriptor.charAt(8);
+			descriptorArray[12] = descriptor.charAt(7);
+			descriptorArray[14] = descriptor.charAt(5);
+			descriptorArray[20] = descriptor.charAt(3);
+			descriptorArray[21] = descriptor.charAt(2);
+		} else if (move === "U") {
+			descriptorArray[0] = descriptor.charAt(1);
+			descriptorArray[1] = descriptor.charAt(3);
+			descriptorArray[2] = descriptor.charAt(0);
+			descriptorArray[3] = descriptor.charAt(2);
+			descriptorArray[4] = descriptor.charAt(16);
+			descriptorArray[5] = descriptor.charAt(17);
+			descriptorArray[8] = descriptor.charAt(4);
+			descriptorArray[9] = descriptor.charAt(5);
+			descriptorArray[12] = descriptor.charAt(8);
+			descriptorArray[13] = descriptor.charAt(9);
+			descriptorArray[16] = descriptor.charAt(12);
+			descriptorArray[17] = descriptor.charAt(13);
+		} else if (move === "U'") {
+			descriptorArray[0] = descriptor.charAt(2);
+			descriptorArray[1] = descriptor.charAt(0);
+			descriptorArray[2] = descriptor.charAt(3);
+			descriptorArray[3] = descriptor.charAt(1);
+			descriptorArray[4] = descriptor.charAt(8);
+			descriptorArray[5] = descriptor.charAt(9);
+			descriptorArray[8] = descriptor.charAt(12);
+			descriptorArray[9] = descriptor.charAt(13);
+			descriptorArray[12] = descriptor.charAt(16);
+			descriptorArray[13] = descriptor.charAt(17);
+			descriptorArray[16] = descriptor.charAt(4);
+			descriptorArray[17] = descriptor.charAt(5);
+		} else if (move === "U2") {
+			descriptorArray[0] = descriptor.charAt(3);
+			descriptorArray[1] = descriptor.charAt(2);
+			descriptorArray[2] = descriptor.charAt(1);
+			descriptorArray[3] = descriptor.charAt(0);
+			descriptorArray[4] = descriptor.charAt(12);
+			descriptorArray[5] = descriptor.charAt(13);
+			descriptorArray[8] = descriptor.charAt(16);
+			descriptorArray[9] = descriptor.charAt(17);
+			descriptorArray[12] = descriptor.charAt(4);
+			descriptorArray[13] = descriptor.charAt(5);
+			descriptorArray[16] = descriptor.charAt(8);
+			descriptorArray[17] = descriptor.charAt(9);
+		} else if (move === "R") {
+			descriptorArray[1] = descriptor.charAt(18);
+			descriptorArray[3] = descriptor.charAt(16);
+			descriptorArray[9] = descriptor.charAt(1);
+			descriptorArray[11] = descriptor.charAt(3);
+			descriptorArray[12] = descriptor.charAt(13);
+			descriptorArray[13] = descriptor.charAt(15);
+			descriptorArray[14] = descriptor.charAt(12);
+			descriptorArray[15] = descriptor.charAt(14);
+			descriptorArray[16] = descriptor.charAt(23);
+			descriptorArray[18] = descriptor.charAt(21);
+			descriptorArray[21] = descriptor.charAt(9);
+			descriptorArray[23] = descriptor.charAt(11);
+		} else if (move === "R'") {
+			descriptorArray[1] = descriptor.charAt(18);
+			descriptorArray[3] = descriptor.charAt(16);
+			descriptorArray[9] = descriptor.charAt(1);
+			descriptorArray[11] = descriptor.charAt(3);
+			descriptorArray[12] = descriptor.charAt(13);
+			descriptorArray[13] = descriptor.charAt(15);
+			descriptorArray[14] = descriptor.charAt(12);
+			descriptorArray[15] = descriptor.charAt(14);
+			descriptorArray[16] = descriptor.charAt(23);
+			descriptorArray[18] = descriptor.charAt(21);
+			descriptorArray[21] = descriptor.charAt(9);
+			descriptorArray[23] = descriptor.charAt(11);
+		} else if (move === "R2") {
+			descriptorArray[1] = descriptor.charAt(18);
+			descriptorArray[3] = descriptor.charAt(16);
+			descriptorArray[9] = descriptor.charAt(1);
+			descriptorArray[11] = descriptor.charAt(3);
+			descriptorArray[12] = descriptor.charAt(13);
+			descriptorArray[13] = descriptor.charAt(15);
+			descriptorArray[14] = descriptor.charAt(12);
+			descriptorArray[15] = descriptor.charAt(14);
+			descriptorArray[16] = descriptor.charAt(23);
+			descriptorArray[18] = descriptor.charAt(21);
+			descriptorArray[21] = descriptor.charAt(9);
+			descriptorArray[23] = descriptor.charAt(11);
+		}
+
+		return descriptorArray.join('');
+	}
+})();]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-13 01:11:13</sys_created_on>
+        <sys_id>68fc585cc31512103c11563ed401317d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CubeUtility</sys_name>
+        <sys_package display_value="Rubik’s 2×2 Cube Solver" source="x_snc_cube">799ec058c3d112103c11563ed4013172</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Rubik’s 2×2 Cube Solver">799ec058c3d112103c11563ed4013172</sys_scope>
+        <sys_update_name>sys_script_include_68fc585cc31512103c11563ed401317d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-13 01:11:13</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>68fc585cc31512103c11563ed401317d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-13 01:11:12</sys_created_on>
+        <sys_id>9093a854c35512103c11563ed40131a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-13 01:11:12</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

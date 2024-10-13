@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a9bec898c3d112103c11563ed40131f4" label="Cube position" max_length="40" name="x_snc_cube_position" type="collection">
+        <element label="Optimal solution" max_length="255" name="solution" type="string_full_utf8"/>
+        <element default="wwwwooooggggrrrrbbbbyyyy" label="Descriptor" mandatory="true" max_length="255" name="descriptor" type="string_full_utf8"/>
+        <element label="Processed" max_length="40" name="processed" type="boolean"/>
+    </element>
+</database>

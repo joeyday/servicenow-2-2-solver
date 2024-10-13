@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_snc_cube.cube_position_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>cube_position_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-12 23:41:52</sys_created_on>
+        <sys_id>f31f4498c3d112103c11563ed40131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_cube.cube_position_user</sys_name>
+        <sys_package display_value="Rubik’s 2×2 Cube Solver" source="x_snc_cube">799ec058c3d112103c11563ed4013172</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Rubik’s 2×2 Cube Solver">799ec058c3d112103c11563ed4013172</sys_scope>
+        <sys_update_name>sys_user_role_f31f4498c3d112103c11563ed40131db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-12 23:41:52</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Rubik’s 2×2 Cube Solver">799ec058c3d112103c11563ed4013172</application>
+        <file_path/>
+        <instance_id>b7844c151b010e5039a54089bd4bcbeb</instance_id>
+        <instance_name>dev243991</instance_name>
+        <name>sys_user_role_f31f4498c3d112103c11563ed40131db</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_snc_cube.cube_position_user</name><scoped_admin>false</scoped_admin><suffix>cube_position_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-12 23:41:52</sys_created_on><sys_id>f31f4498c3d112103c11563ed40131db</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_cube.cube_position_user</sys_name><sys_package display_value="Rubik’s 2×2 Cube Solver" source="x_snc_cube">799ec058c3d112103c11563ed4013172</sys_package><sys_policy/><sys_scope display_value="Rubik’s 2×2 Cube Solver">799ec058c3d112103c11563ed4013172</sys_scope><sys_update_name>sys_user_role_f31f4498c3d112103c11563ed40131db</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-12 23:41:52</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-1759346873</payload_hash>
+        <record_name>x_snc_cube.cube_position_user</record_name>
+        <reverted_from/>
+        <source>b19ec058c3d112103c11563ed4013175</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-12 23:41:52</sys_created_on>
+        <sys_id>331f4498c3d112103c11563ed40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192831c250d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-12 23:41:52</sys_updated_on>
+        <type>Role</type>
+        <update_guid>371f4498d5d11210df9d80e3c07d29de</update_guid>
+        <update_guid_history>371f4498d5d11210df9d80e3c07d29de:-1759346873</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_snc_cube.cube_position_user">3c8f001cc3d112103c11563ed401313e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-12 23:43:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>04bccbeed3dc4329881ad9aade459491</sys_id>
+        <sys_metadata>f31f4498c3d112103c11563ed40131db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_cube.cube_position_user</sys_name>
+        <sys_package display_value="Rubik’s 2×2 Cube Solver" source="x_snc_cube">799ec058c3d112103c11563ed4013172</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Rubik’s 2×2 Cube Solver">799ec058c3d112103c11563ed4013172</sys_scope>
+        <sys_scope_delete display_value="">4fe32b229d9c42089fbd848af821b590</sys_scope_delete>
+        <sys_update_name>sys_user_role_f31f4498c3d112103c11563ed40131db</sys_update_name>
+        <sys_update_version display_value="sys_user_role_f31f4498c3d112103c11563ed40131db">331f4498c3d112103c11563ed40131df</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-12 23:43:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
